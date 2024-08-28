@@ -1,0 +1,34 @@
+{
+  "name": "saintik77/ktw-saas-vanilla-mvc",
+  "description": "Vanilla PHP MVC Framework Demo",
+  "type": "preject",
+  "version": "0.1",
+  "time": "2024-08-28",
+  "keywords": [
+    "mvc",
+    "framework",
+    "vanilla",
+    "demo",
+    "mysql",
+    "mariahdb",
+    "webapp"
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kobe Williams",
+      "email": "20037535@tafe.wa.edu.au",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "Framework/",
+      "App\\": "App/"
+    }
+  }
+}
